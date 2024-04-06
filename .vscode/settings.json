@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/4abbbc10-ba0a-4ee0-8383-df8c3ed66413/resourceGroups/AuthBCAssignment/providers/Microsoft.Web/sites/AuthBCAssignment",
+    "appService.deploySubpath": "."
+}

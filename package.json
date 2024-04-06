@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "init-db": "node ./scripts/initDb.js",
+    "start": "node src/app.js"   
   },
   "keywords": [],
   "author": "",
