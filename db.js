@@ -4,10 +4,8 @@ const pool = new Pool({
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
-  port: 5432, // Default port for PostgreSQL
-  ssl: {
-    rejectUnauthorized: false // Required for Azure database connection
-  }
+  port: 5432 // Default port for PostgreSQL
+ 
 });
 
 module.exports = pool;
